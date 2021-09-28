@@ -5,7 +5,7 @@ import HeroSection from "./components/HeroSection"
 import NavBar from "./components/NavBar"
 
 const App = () => {
-  const genreIncrement = 4
+  const genreIncrement = 10
   const [genres, setGenres] = useState(null)
   const [limit, setLimit] = useState(genreIncrement)
 
